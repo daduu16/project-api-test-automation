@@ -1,0 +1,81 @@
+<div>POST to https://dummyjson.com/recipes/add</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: null,
+    &quot;name&quot;: &quot;recipe_1773606634352&quot;,
+    &quot;ingredients&quot;: [
+        &quot;Dough&quot;,
+        &quot;Tomato&quot;,
+        &quot;Cheese&quot;
+    ],
+    &quot;instructions&quot;: [
+        &quot;Mix&quot;,
+        &quot;Bake&quot;
+    ],
+    &quot;prepTimeMinutes&quot;: 15,
+    &quot;cookTimeMinutes&quot;: 20,
+    &quot;servings&quot;: 2,
+    &quot;difficulty&quot;: &quot;Easy&quot;,
+    &quot;cuisine&quot;: &quot;Italian&quot;,
+    &quot;caloriesPerServing&quot;: 250,
+    &quot;tags&quot;: [
+        &quot;Test&quot;
+    ],
+    &quot;userId&quot;: null,
+    &quot;image&quot;: &quot;https://example.com/pizza.jpg&quot;,
+    &quot;rating&quot;: 4.5,
+    &quot;reviewCount&quot;: 0,
+    &quot;mealType&quot;: [
+        &quot;Dinner&quot;
+    ],
+    &quot;deletedOn&quot;: null,
+    &quot;isDeleted&quot;: null
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://dummyjson.com/recipes/add&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: null,
+    &quot;name&quot;: &quot;recipe_1773606634352&quot;,
+    &quot;ingredients&quot;: [
+        &quot;Dough&quot;,
+        &quot;Tomato&quot;,
+        &quot;Cheese&quot;
+    ],
+    &quot;instructions&quot;: [
+        &quot;Mix&quot;,
+        &quot;Bake&quot;
+    ],
+    &quot;prepTimeMinutes&quot;: 15,
+    &quot;cookTimeMinutes&quot;: 20,
+    &quot;servings&quot;: 2,
+    &quot;difficulty&quot;: &quot;Easy&quot;,
+    &quot;cuisine&quot;: &quot;Italian&quot;,
+    &quot;caloriesPerServing&quot;: 250,
+    &quot;tags&quot;: [
+        &quot;Test&quot;
+    ],
+    &quot;userId&quot;: null,
+    &quot;image&quot;: &quot;https://example.com/pizza.jpg&quot;,
+    &quot;rating&quot;: 4.5,
+    &quot;reviewCount&quot;: 0,
+    &quot;mealType&quot;: [
+        &quot;Dinner&quot;
+    ],
+    &quot;deletedOn&quot;: null,
+    &quot;isDeleted&quot;: null
+}&#39;
+    </div>
+
